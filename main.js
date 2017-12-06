@@ -3,6 +3,10 @@ $(document).ready(function() {
   let content = document.getElementById('myDropdown');
   let drop = document.getElementById('dropdown');
 
+  $("#side-menu").click(function() {
+    $("#dropdown").toggle();
+  })
+
   btn.addEventListener("click", function() {
     content.classList.toggle("show");
   })
